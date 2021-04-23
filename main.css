@@ -233,3 +233,29 @@ footer a:visited {
   background: #c0392b;
   cursor: pointer;
 }
+
+/* ------------------------------------- */
+/* CHECKOUT SECTION */
+/* ------------------------------------- */
+
+#checkout-table tr td {
+  padding: 5px;
+}
+
+#purchase-btn {
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px;
+  color: white;
+  background: #33c3f0;
+}
+
+#purchase-btn:hover {
+  background: #1eaedb;
+  cursor: pointer;
+}
+
+.asterisk {
+  color: red;
+}
