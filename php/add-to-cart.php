@@ -8,7 +8,7 @@
       print '<td>'.$row['product_name'].'</td>';
       print '<td>$'.$row['unit_price'].'</td>';
       print '<td>'.$_GET['qty'].'</td>';
-      print '<td>$'.$total.'</td>';
+      print '<td class="row-price">$'.number_format($total, 2).'</td>';
   }
 
   mysqli_close($link);

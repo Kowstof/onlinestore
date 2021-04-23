@@ -19,7 +19,7 @@
         print '<td><input type="number" name="item-qty" id="item-qty" value="1" min="1" max="20" required></td>';
         print '</tr>';
         print '</table>';
-        print '<input type="submit" value="Add to Cart" id="add-to-cart-btn" onclick="addToCart('.$row['product_id'].')">';
+        print '<input type="submit" value="Add to Cart" id="add-to-cart-btn" onclick="submitCart('.$row['product_id'].')">';
   }
 
   mysqli_close($link);
