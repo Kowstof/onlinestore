@@ -1,6 +1,6 @@
 <?php
     print '<h1>Checkout Details</h1>';
-    print '<form action="php/success.php" method="post">';
+    print '<form action="php/success.php" method="post" target="_blank">';
     print '<table id="checkout-table">';
     print '<tr>';
     print '<td><label for="">Full Name: <span class="asterisk">*</span></label></td>';
